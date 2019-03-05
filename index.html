@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+</head>
+<body>
+	<h1>Homepage</h1>
+
+	<a href="cart.html">Go to cart</a>
+
+	<div class="my-product">
+		<h3>Product A</h3>
+		<p>Description</p>
+		<button id="prodA" data-name="A" data-price="10" onclick="addToCart(this)">Add to cart</button>
+	</div>
+
+	<div class="my-product">
+		<h3>Product B</h3>
+		<p>Description</p>
+		<button id="prodB" data-name="B" data-price="15" onclick="addToCart(this)">Add to cart</button>
+	</div>
+
+	<div class="my-product">
+		<h3>Product C</h3>
+		<p>Description</p>
+		<button id="prodC" data-name="C" data-price="20" onclick="addToCart(this)">Add to cart</button>
+	</div>
+
+	<div class="my-product">
+		<h3>Product D</h3>
+		<p>Description</p>
+		<button id="prodD" data-name="D" data-price="30" onclick="addToCart(this)">Add to cart</button>
+	</div>
+
+	<button id="getCart" onclick="getCart()">View Cart</button>
+	<button id="gtCart" onclick="clearCart()">Clear Cart</button>
+	<button id="tCart" onclick="display()"><a href="cart.html">View Cart</a></button>
+
+	<script type="text/javascript" src="example.js"></script>
+</body>
+</html>
